@@ -1,0 +1,350 @@
+{
+    "00": {
+        "codigo": "LR - [00]",
+        "descricao": "Transação nacional autorizada com sucesso.👍",
+        "acao": "N/A",
+        "retentativa": "N/A"
+    },
+    "01": {
+        "codigo": "LR - [01]",
+        "descricao": "Transação referida pelo emissor.",
+        "acao": "O que fazer: Oriente o portador a contatar o emissor do cartão.",
+        "retentativa": "👎"
+    },
+    "03": {
+        "codigo": "LR - [03]",
+        "descricao": "Não foi encontrada a transação.",
+        "acao": "Este erro pode ser;👉 Número de parcelas ultrapassa o permitido.👉 Código de segurança inválido👉 Número do cartão inválido👉 Instabilidade no sistema da adquirente",
+        "retentativa": "👍"
+    },
+    "04": {
+        "codigo": "LR - [04]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Oriente o portador a contatar o emissor do cartão (Problemas com o cartão).",
+        "retentativa": "👎"
+    },
+    "05": {
+        "codigo": "LR - [05]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Oriente o portador a contatar o emissor do cartão (não autorizada pelo emissor).",
+        "retentativa": "👎"
+    },
+    "06": {
+        "codigo": "LR - [06]",
+        "descricao": "Tente novamente.",
+        "acao": "Problemas ocorridos na transação eletrônica, instabilidade da adquirente.",
+        "retentativa": "👍"
+    },
+    "07": {
+        "codigo": "LR - [07]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Oriente o portador a contatar o emissor do cartão (Problemas com o cartão).",
+        "retentativa": "👎"
+    },
+    "08": {
+        "codigo": "LR - [08]",
+        "descricao": "Código de segurança inválido.",
+        "acao": "O código de segurança foi informado errado no momento da compra.",
+        "retentativa": "👎"
+    },
+    "10": {
+        "codigo": "LR - [10]",
+        "descricao": "Não é permitido o envio do cartão.",
+        "acao": "O Adquirente está com os serviços instáveis, caso o erro continue ocorrendo entre em contato com nosso suporte técnico.",
+        "retentativa": "👎"
+    },
+    "11": {
+        "codigo": "LR - [11]",
+        "descricao": "Transação Internacional Autorizada com sucesso.",
+        "acao": "N/A.",
+        "retentativa": "👎"
+    },
+    "12": {
+        "codigo": "LR - [12]",
+        "descricao": "Transação inválida.",
+        "acao": "Venda não autorizada pelo banco emissor do cartão. Cartão informado no momento da compra está incorreto.",
+        "retentativa": "👎"
+    },
+    "13": {
+        "codigo": "LR - [13]",
+        "descricao": "Valor inválido.",
+        "acao": "Verifique valor mínimo compra, esse código quando ocorrer com ticket de restaurante ou alimentação, verificar possivel restrição do valor do emissor , exemplo tem 1000 reais mostrando disponível no app, mas quando passa o pdv informa valor invalido porque o emissor não deixa o cliente passar aquele valor apenas um valor mínimo no dia, solicitar que entre em contato com o emissor para explicação da possivel restrição do dia.",
+        "retentativa": "👎"
+    },
+    "14": {
+        "codigo": "LR - [14]",
+        "descricao": "Cartão inválido.",
+        "acao": "N/A.",
+        "retentativa": "👎"
+    },
+    "15": {
+        "codigo": "LR - [15]",
+        "descricao": "Emissor inválido.",
+        "acao": "Emissor sem comunicação.",
+        "retentativa": "👎"
+    },
+    "19": {
+        "codigo": "LR - [19]",
+        "descricao": "Refaça a transação ou tente novamente mais tarde.",
+        "acao": "Não foi possível processar a transação. Refaça a transação ou tente novamente mais tarde.",
+        "retentativa": "👍"
+    },
+    "21": {
+        "codigo": "LR - [21]",
+        "descricao": "Cancelamento não efetuado.",
+        "acao": "Não foi possível processar o cancelamento.",
+        "retentativa": "👎"
+    },
+    "22": {
+        "codigo": "LR - [22]",
+        "descricao": "Parcelamento inválido. Número de parcelas inválidas.",
+        "acao": "Não foi possível processar a transação. Valor inválido. Refazer a transação confirmando os dados informados.",
+        "retentativa": "👎"
+    },
+    "24": {
+        "codigo": "LR - [24]",
+        "descricao": "Quantidade de parcelas inválido.",
+        "acao": "Não foi possível processar a transação. Quantidade de parcelas inválido.",
+        "retentativa": "👎"
+    },
+    "30": {
+        "codigo": "LR - [30]",
+        "descricao": "Não foi possível processar a transação. Solicite ao portador que reveja os dados e tente novamente.",
+        "acao": "Não foi possível processar a transação. Reveja os dados e tente novamente. Se o erro persistir, entre em contato com a loja virtual.",
+        "retentativa": "👎"
+    },
+    "31": {
+        "codigo": "LR - [31]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Número de cartão inválido. Verificar os dados corretos do cartão.",
+        "retentativa": "👍"
+    },
+    "39": {
+        "codigo": "LR - [39]",
+        "descricao": "Transação não autorizada. Erro no banco emissor.",
+        "acao": "Transação não autorizada. Entre em contato com seu banco emissor.",
+        "retentativa": "👎"
+    },
+    "41": {
+        "codigo": "LR - [41]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Oriente o portador a contatar o emissor do cartão (Problemas com o cartão).",
+        "retentativa": "👎"
+    },
+    "42": {
+        "codigo": "LR - [42]",
+        "descricao": "Ocorreu um erro interno quando o número de cartão foi consultado.",
+        "acao": "Oriente o portador a contatar o emissor do cartão ( não autorizada pelo emissor ).",
+        "retentativa": "👍"
+    },
+    "43": {
+        "codigo": "LR - [43]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Oriente o portador a contatar o emissor do cartão (Problemas com o cartão).",
+        "retentativa": "👎"
+    },
+    "51": {
+        "codigo": "LR - [51]",
+        "descricao": "Saldo insuficiente.",
+        "acao": "Cliente deve entrar em contato com o banco.",
+        "retentativa": "👍"
+    },
+    "52": {
+        "codigo": "LR - [52]",
+        "descricao": "Cartão com dígito de controle inválido.",
+        "acao": "Não foi possível processar a transação. Cartão com dígito de controle inválido.",
+        "retentativa": "👎"
+    },
+    "54": {
+        "codigo": "LR - [54]",
+        "descricao": "Cartão vencido.",
+        "acao": "Caso os dados informados estejam corretos, cliente deve entrar em contato com o banco para verificar se cartão ainda é valido.",
+        "retentativa": "👎"
+    },
+    "55": {
+        "codigo": "LR - [55]",
+        "descricao": "Senha Inválida.",
+        "acao": "Senha informada está errada.",
+        "retentativa": "👎"
+    },
+    "57": {
+        "codigo": "LR - [57]",
+        "descricao": "Transação não permitida ou não autorizada.",
+        "acao": "Venda não autorizada pelo emissor do cartão, pois o cartão utilizado não faz parte da rede Verified by Visa ou o sistema de prevenção do banco não autorizou a compra, neste caso o cliente deverá realizar contato com banco emissor do cartão e informar que está tentando realizar uma compra no valor R$XXX e não está sendo autorizada.",
+        "retentativa": "👎"
+    },
+    "58": {
+        "codigo": "LR - [58]",
+        "descricao": "Transação não permitida.",
+        "acao": "N/A.",
+        "retentativa": "👎"
+    },
+    "59": {
+        "codigo": "LR - [59]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Oriente o portador a contatar o emissor do cartão.Obs: transação não foi autorizada por possivel suspeita de fraude.",
+        "retentativa": "👎"
+    },
+    "60": {
+        "codigo": "LR - [60]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Oriente o portador a contatar o emissor do cartão.",
+        "retentativa": "👎"
+    },
+    "61": {
+        "codigo": "LR - [61]",
+        "descricao": "Banco emissor Visa indisponível.",
+        "acao": "Transação não autorizada. Tente novamente. Se o erro persistir, entre em contato com seu banco emissor.",
+        "retentativa": "👍"
+    },
+    "62": {
+        "codigo": "LR - [62]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Oriente o portador a contatar o emissor do cartão. Cartão com algum bloqueio para transações online.",
+        "retentativa": "👎"
+    },
+    "63": {
+        "codigo": "LR - [63]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Oriente o portador a contatar o emissor do cartão. Possível erro de segurança ao tentar processar.",
+        "retentativa": "👎"
+    },
+    "64": {
+        "codigo": "LR - [64]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Oriente o portador a contatar o emissor do cartão (não autorizada pelo emissor).",
+        "retentativa": "👎"
+    },
+    "65": {
+        "codigo": "LR - [65]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Transação Negada. Oriente o portador a contatar o emissor do cartão (Problemas com o cartão).",
+        "retentativa": "👎"
+    },
+    "67": {
+        "codigo": "LR - [67]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Transação não autorizada. Cartão bloqueado para compras hoje. Bloqueio pode ter ocorrido por excesso de tentativas inválidas.",
+        "retentativa": "👍"
+    },
+    "68": {
+        "codigo": "LR - [68]",
+        "descricao": "Cartão inválido.",
+        "acao": "Oriente o portador a entrar em contato com seu banco emissor.",
+        "retentativa": "👎"
+    },
+    "70": {
+        "codigo": "LR - [70]",
+        "descricao": "Transação não autorizada. Limite excedido/sem saldo.",
+        "acao": "Transação não autorizada. Entre em contato com seu banco emissor.",
+        "retentativa": "👍"
+    },
+    "74": {
+        "codigo": "LR - [74]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Transação não autorizada. A senha está vencida.",
+        "retentativa": "👎"
+    },
+    "75": {
+        "codigo": "LR - [75]",
+        "descricao": "Cartão com restrição.",
+        "acao": "Motivo provável, Bloqueio de senha. Oriente o portador a contatar o emissor do cartão.",
+        "retentativa": "👎"
+    },
+    "76": {
+        "codigo": "LR - [76]",
+        "descricao": "Tente novamente.",
+        "acao": "N/A.",
+        "retentativa": "👍"
+    },
+    "77": {
+        "codigo": "LR - [77]",
+        "descricao": "Cancelamento não efetuado.",
+        "acao": "Cancelamento não efetuado. Não foi localizado a transação original.",
+        "retentativa": "👎"
+    },
+    "78": {
+        "codigo": "LR - [78]",
+        "descricao": "Cartão não foi desbloqueado pelo portador.",
+        "acao": "Cartão bloqueado. Oriente o portador a desbloqueá-lo junto ao emissor do cartão.",
+        "retentativa": "👎"
+    },
+    "80": {
+        "codigo": "LR - [80]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Transação não autorizada. Data da transação ou data do primeiro pagamento inválida. Refazer confirmando os dados.",
+        "retentativa": "👎"
+    },
+    "81": {
+        "codigo": "LR - [81]",
+        "descricao": "Transação negada.",
+        "acao": "N/A.",
+        "retentativa": "👎"
+    },
+    "82": {
+        "codigo": "LR - [82]",
+        "descricao": "Transação inválida.",
+        "acao": "Provável Código de segurança incorreto ou inválido.",
+        "retentativa": "👎"
+    },
+    "84": {
+        "codigo": "LR - [84]",
+        "descricao": "Log-on(terminal não aberto).",
+        "acao": "Transação não permitida. Houve um erro no processamento.Solicite ao portador que digite novamente os dados do cartão.",
+        "retentativa": "👎"
+    },
+    "85": {
+        "codigo": "LR - [85]",
+        "descricao": "Transação não permitida. Falha da operação.",
+        "acao": "Transação não permitida. Houve um erro no processamento.Solicite ao portador que digite novamente os dados do cartão.",
+        "retentativa": "👎"
+    },
+    "88": {
+        "codigo": "LR - [88]",
+        "descricao": "Erro na transação.",
+        "acao": "Transação não autorizada. Erro na transação. O portador deve tentar novamente e se o erro persistir, entrar em contato com o banco emissor.",
+        "retentativa": "👍"
+    },
+    "90": {
+        "codigo": "LR - [90]",
+        "descricao": "Transação não permitida. Falha da operação.",
+        "acao": "Transação não permitida. Houve um erro no processamento.Solicite ao portador que digite novamente os dados do cartão.",
+        "retentativa": "👎"
+    },
+    "91": {
+        "codigo": "LR - [91]",
+        "descricao": "Banco indisponível.",
+        "acao": "Emissor sem comunicação. Oriente cliente a aguardar alguns minutos e tente novamente.",
+        "retentativa": "👍"
+    },
+    "92": {
+        "codigo": "LR - [92]",
+        "descricao": "Transação não autorizada. Tempo de comunicação excedido.",
+        "acao": "Transação não autorizada. Tempo de comunicação excedido.",
+        "retentativa": "👎"
+    },
+    "94": {
+        "codigo": "LR - [94]",
+        "descricao": "Transação não autorizada.",
+        "acao": "Transação desfeita pela bandeira.",
+        "retentativa": "👎"
+    },
+    "96": {
+        "codigo": "LR - [96]",
+        "descricao": "Tente novamente.",
+        "acao": "Provável venda abaixo de R$ 1,00. Falha no envio da autorização.",
+        "retentativa": "👍"
+    },
+    "99": {
+        "codigo": "LR - [99]",
+        "descricao": "Sistema do banco temporariamente fora de operação.",
+        "acao": "Tente novamente mais tarde.",
+        "retentativa": "👎"
+    },
+    "190": {
+        "codigo": "-D ( 190 ) DECISÃO DEFAULT TRIAD",
+        "descricao": "Não foi possível processar a transação.",
+        "acao": "Peça pra cliente ir até o time do mateus card e verificar a situação do cartão dela",
+        "retentativa": "N/A"
+    }
+}
